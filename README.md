@@ -22,11 +22,12 @@ A Python-based web scraper using Selenium that extracts company profile links an
 pip install -r requirements.txt
 ```
 
-Required packages:
+## Required packages:
+
 selenium
 webdriver-manager
 
-🧪 Usage
+## 🧪 Usage
 python scraper.py
 
 The script will:
@@ -35,11 +36,15 @@ The script will:
 2. Collect company links.
 3. Visit each company profile and extract visible email addresses.
 
-📁 Output
+## 📁 Output
+
 Each result is printed in this format:
+
 https://www.itewiki.fi/digia -> info@digia.fi
+
 https://www.itewiki.fi/innofactor -> contact@innofactor.com
 
 
-🙋‍♀️ Author
+## 🙋‍♀️ Author
+
 Ramisha Munir
